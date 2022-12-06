@@ -1,0 +1,14 @@
+@use "./assets/sass/reset";
+// @use "./assets/sass/variables" as *;
+
+.container {
+  border: 2px solid black;
+  margin: 80px;
+  padding: 40px;
+}
+
+.title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
