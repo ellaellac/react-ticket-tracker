@@ -8,8 +8,8 @@ const App = () => {
   ));
   return (
     <body className="container">
-      <h1 className="title">Ticket Tracker</h1>
-      <main>{employeeCardJsx}</main>
+      <h1 className="container__title">Ticket Tracker</h1>
+      <main className="container__cards">{employeeCardJsx}</main>
     </body>
   );
 };

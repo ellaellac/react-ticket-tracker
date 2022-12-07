@@ -1,0 +1,15 @@
+.counter {
+  border: 2px solid black;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.counter__btn--minus,
+.counter__btn--plus,
+.counter__number {
+  align-self: center;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
